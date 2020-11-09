@@ -1,0 +1,767 @@
+2020.10.20 20:37:35 INFO  started: Metals version 0.9.4 in workspace '/Users/mdeguz/Documents/Projects/scala/mill_example/example-3' for client vscode.
+2020.10.20 20:37:35 INFO  time: initialize in 0.34s
+2020.10.20 20:37:39 INFO  running '/var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/metals7411162393093264132/millw --mill-version 0.8.0 --predef /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/metals7411162393093264132/predef.sc mill.contrib.Bloop/install'
+2020.10.20 20:37:40 INFO  Downloading mill 0.8.0 from https://github.com/lihaoyi/mill/releases ...
+2020.10.20 20:37:40 INFO    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2020.10.20 20:37:40 INFO                                   Dload  Upload   Total   Spent    Left  Speed
+2020.10.20 20:37:40 INFO  running '/var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/metals4519877034906358666/millw --mill-version 0.8.0 --predef /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/metals4519877034906358666/predef.sc mill.contrib.Bloop/install'
+2020.10.20 20:37:40 INFO  Downloading mill 0.8.0 from https://github.com/lihaoyi/mill/releases ...
+2020.10.20 20:37:40 INFO    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2020.10.20 20:37:40 INFO                                   Dload  Upload   Total   Spent    Left  Speed
+2020.10.20 20:37:39 INFO  running '/var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/metals3188034279040032866/millw --mill-version 0.8.0 --predef /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/metals3188034279040032866/predef.sc mill.contrib.Bloop/install'
+2020.10.20 20:37:40 INFO  running '/var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/metals7275420460704904334/millw --mill-version 0.8.0 --predef /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/metals7275420460704904334/predef.sc mill.contrib.Bloop/install'
+2020.10.20 20:37:40 INFO  Downloading mill 0.8.0 from https://github.com/lihaoyi/mill/releases ...
+2020.10.20 20:37:40 INFO    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2020.10.20 20:37:40 INFO                                   Dload  Upload   Total   Spent    Left  Speed
+2020.10.20 20:37:40 INFO    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   640  100   640    0     0   1370      0 --:--:-- --:--:-- --:--:--  1367
+2020.10.20 20:37:40 INFO  Downloading mill 0.8.0 from https://github.com/lihaoyi/mill/releases ...
+2020.10.20 20:37:40 INFO    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2020.10.20 20:37:40 INFO                                   Dload  Upload   Total   Spent    Left  Speed
+2020.10.20 20:37:40 INFO    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   640  100   640    0     0   1797      0 --:--:-- --:--:-- --:--:--  1792
+2020.10.20 20:37:40 INFO    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   640  100   640    0     0   1833      0 --:--:-- --:--:-- --:--:--  1833
+2020.10.20 20:37:40 INFO    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   640  100   640    0     0   1772      0 --:--:-- --:--:-- --:--:--  1772
+2020.10.20 20:38:08 INFO    0 53.7M    0  270k    0     0   203k      0  0:04:30  0:00:01  0:04:29  203k  2 53.7M    2 1393k    0     0   615k      0  0:01:29  0:00:02  0:01:27 1198k  3 53.7M    3 1903k    0     0   582k      0  0:01:34  0:00:03  0:01:31  841k  4 53.7M    4 2430k    0     0   569k      0  0:01:36  0:00:04  0:01:32  735k  5 53.7M    5 3144k    0     0   594k      0  0:01:32  0:00:05  0:01:27  726k  7 53.7M    7 4282k    0     0   682k      0  0:01:20  0:00:06  0:01:14  811k  9 53.7M    9 5422k    0     0   745k      0  0:01:13  0:00:07  0:01:06  804k 12 53.7M   12 6611k    0     0   798k      0  0:01:08  0:00:08  0:01:00  940k 14 53.7M   14 7733k    0     0   834k      0  0:01:05  0:00:09  0:00:56 1060k 16 53.7M   16 9093k    0     0   882k      0  0:01:02  0:00:10  0:00:52 1185k 18 53.7M   18 10.1M    0     0   923k      0  0:00:59  0:00:11  0:00:48 1225k 21 53.7M   21 11.7M    0     0   974k      0  0:00:56  0:00:12  0:00:44 1307k 25 53.7M   25 13.4M    0     0  1040k      0  0:00:52  0:00:13  0:00:39 1440k 28 53.7M   28 15.2M    0     0  1089k      0  0:00:50  0:00:14  0:00:36 1558k 31 53.7M   31 16.8M    0     0  1127k      0  0:00:48  0:00:15  0:00:33 1635k 34 53.7M   34 18.5M    0     0  1167k      0  0:00:47  0:00:16  0:00:31 1719k 37 53.7M   37 20.3M    0     0  1207k      0  0:00:45  0:00:17  0:00:28 1782k 41 53.7M   41 22.2M    0     0  1249k      0  0:00:44  0:00:18  0:00:26 1806k 45 53.7M   45 24.5M    0     0  1304k      0  0:00:42  0:00:19  0:00:23 1923k 51 53.7M   51 27.4M    0     0  1385k      0  0:00:39  0:00:20  0:00:19 2175k 58 53.7M   58 31.2M    0     0  1503k      0  0:00:36  0:00:21  0:00:15 2597k 67 53.7M   67 36.0M    0     0  1658k      0  0:00:33  0:00:22  0:00:11 3218k 74 53.7M   74 39.8M    0     0  1755k      0  0:00:31  0:00:23  0:00:08 3598k 80 53.7M   80 43.2M    0     0  1823k      0  0:00:30  0:00:24  0:00:06 3823k 85 53.7M   85 45.8M    0     0  1858k      0  0:00:29  0:00:25  0:00:04 3779k 91 53.7M   91 48.9M    0     0  1908k      0  0:00:28  0:00:26  0:00:02 3632k 96 53.7M   96 51.7M    0     0  1942k      0  0:00:28  0:00:27  0:00:01 3208k100 53.7M  100 53.7M    0     0  1959k      0  0:00:28  0:00:28 --:--:-- 2949k
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.8.0/mill-contrib-bloop_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.8.0/mill-contrib-bloop_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalajslib_2.13/0.8.0/mill-scalajslib_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalalib_2.13/0.8.0/mill-scalalib_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.4.0-RC1/bloop-config_2.13-1.4.0-RC1.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib_2.13/0.8.0/mill-scalanativelib_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalalib_2.13/0.8.0/mill-scalalib_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib_2.13/0.8.0/mill-scalanativelib_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalajslib_2.13/0.8.0/mill-scalajslib_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.4.0-RC1/bloop-config_2.13-1.4.0-RC1.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main_2.13/0.8.0/mill-main_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib-api/0.8.0/mill-scalanativelib-api-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.0.4/jsoniter-scala-core_2.13-2.0.4.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-dynamic_2.13/2.2.1/scalafmt-dynamic_2.13-2.2.1.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalajslib-api_2.13/0.8.0/mill-scalajslib-api_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main_2.13/0.8.0/mill-main_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib-api/0.8.0/mill-scalanativelib-api-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-dynamic_2.13/2.2.1/scalafmt-dynamic_2.13-2.2.1.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.0.4/jsoniter-scala-core_2.13-2.0.4.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalajslib-api_2.13/0.8.0/mill-scalajslib-api_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-client/0.8.0/mill-main-client-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-interfaces/2.2.1/scalafmt-interfaces-2.2.1.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-core_2.13/0.8.0/mill-main-core_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-core_2.13/0.8.0/mill-main-core_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-interfaces/2.2.1/scalafmt-interfaces-2.2.1.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-client/0.8.0/mill-main-client-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.0.0/jna-platform-5.0.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.0.0/ipcsocket-1.0.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite_2.13.2/2.2.0/ammonite_2.13.2-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.0.0-RC6-15/coursier_2.13-2.0.0-RC6-15.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-moduledefs_2.13/0.8.0/mill-main-moduledefs_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.3.7/trees_2.13-4.3.7.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite_2.13.2/2.2.0/ammonite_2.13.2-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-moduledefs_2.13/0.8.0/mill-main-moduledefs_2.13-0.8.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.0.0/ipcsocket-1.0.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.0.0/jna-platform-5.0.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.3.7/trees_2.13-4.3.7.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.0.0-RC6-15/coursier_2.13-2.0.0-RC6-15.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.9.6/scalapb-runtime_2.13-0.9.6.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-runtime_2.13.2/2.2.0/ammonite-runtime_2.13.2-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-terminal_2.13/2.2.0/ammonite-terminal_2.13-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/fastparse_2.13/1.0.1/fastparse_2.13-1.0.1.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.0.0-RC6-15/coursier-core_2.13-2.0.0-RC6-15.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl_2.13.2/2.2.0/ammonite-repl_2.13.2-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.9.6/scalapb-runtime_2.13-0.9.6.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-interp_2.13.2/2.2.0/ammonite-interp_2.13.2-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/fastparse_2.13/1.0.1/fastparse_2.13-1.0.1.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.3.7/common_2.13-4.3.7.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.0.0-RC6-15/coursier-core_2.13-2.0.0-RC6-15.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-interp-api_2.13.2/2.2.0/ammonite-interp-api_2.13.2-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-runtime_2.13.2/2.2.0/ammonite-runtime_2.13.2-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-ops_2.13/2.2.0/ammonite-ops_2.13-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-terminal_2.13/2.2.0/ammonite-terminal_2.13-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.13/1.2.0-M11/argonaut-shapeless_6.2_2.13-1.2.0-M11.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.3.7/common_2.13-4.3.7.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.0.0-RC6-15/coursier-cache_2.13-2.0.0-RC6-15.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.13/1.2.0-M11/argonaut-shapeless_6.2_2.13-1.2.0-M11.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-interp-api_2.13.2/2.2.0/ammonite-interp-api_2.13.2-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.13/2.2.0/ammonite-util_2.13-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-ops_2.13/2.2.0/ammonite-ops_2.13-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl-api_2.13.2/2.2.0/ammonite-repl-api_2.13.2-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl_2.13.2/2.2.0/ammonite-repl_2.13.2-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-interp_2.13.2/2.2.0/ammonite-interp_2.13.2-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.0.0-RC6-15/coursier-cache_2.13-2.0.0-RC6-15.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl-api_2.13.2/2.2.0/ammonite-repl-api_2.13.2-2.2.0.pom
+2020.10.20 20:38:09 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.13/2.2.0/ammonite-util_2.13-2.2.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.3.20/trees_2.13-4.3.20.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/scalaparse_2.13/2.3.0/scalaparse_2.13-2.3.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.0.0-M6/bsp4j-2.0.0-M6.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/scalaparse_2.13/2.3.0/scalaparse_2.13-2.3.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.13/1.0.1/fastparse-utils_2.13-1.0.1.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/requests_2.13/0.6.5/requests_2.13-0.6.5.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.0.0-M6/bsp4j-2.0.0-M6.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.9.6/lenses_2.13-0.9.6.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.3.20/trees_2.13-4.3.20.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.14.1/jline-terminal-jna-3.14.1.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.13/1.0.1/fastparse-utils_2.13-1.0.1.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.14.1/jline-terminal-3.14.1.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/requests_2.13/0.6.5/requests_2.13-0.6.5.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.0.0-RC6-15/coursier-util_2.13-2.0.0-RC6-15.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.14.1/jline-terminal-jna-3.14.1.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/github/javaparser/javaparser-core/3.2.5/javaparser-core-3.2.5.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.9.6/lenses_2.13-0.9.6.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.3/windows-ansi-0.0.3.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal/3.14.1/jline-terminal-3.14.1.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.0.0-RC6-15/coursier-util_2.13-2.0.0-RC6-15.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/github/javaparser/javaparser-core/3.2.5/javaparser-core-3.2.5.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.3/windows-ansi-0.0.3.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/github/javaparser/javaparser-parent/3.2.5/javaparser-parent-3.2.5.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/github/javaparser/javaparser-parent/3.2.5/javaparser-parent-3.2.5.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.8.1/org.eclipse.lsp4j.generator-0.8.1.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.13/2.3.0/fastparse_2.13-2.3.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.3.20/common_2.13-4.3.20.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.8.1/org.eclipse.lsp4j.jsonrpc-0.8.1.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.10.3/scalapb-runtime_2.13-0.10.3.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.8.1/org.eclipse.lsp4j.generator-0.8.1.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.10.3/scalapb-runtime_2.13-0.10.3.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.3.20/common_2.13-4.3.20.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.8.1/org.eclipse.lsp4j.jsonrpc-0.8.1.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.13/2.3.0/fastparse_2.13-2.3.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi-project/1.18/jansi-project-1.18.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/fusesource/jansi/jansi-project/1.18/jansi-project-1.18.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.10.3/lenses_2.13-0.10.3.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.18.0/org.eclipse.xtend.lib-2.18.0.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.10.3/lenses_2.13-0.10.3.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.18.0/org.eclipse.xtend.lib-2.18.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/xtext/xtext-dev-bom/2.18.0/xtext-dev-bom-2.18.0.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/xtext/xtext-dev-bom/2.18.0/xtext-dev-bom-2.18.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.18.0/org.eclipse.xtend.lib.macro-2.18.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.18.0/org.eclipse.xtext.xbase.lib-2.18.0.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.18.0/org.eclipse.xtext.xbase.lib-2.18.0.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.18.0/org.eclipse.xtend.lib.macro-2.18.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl-api_2.13.2/2.2.0/ammonite-repl-api_2.13.2-2.2.0.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.3.20/common_2.13-4.3.20.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.0.0/ipcsocket-1.0.0.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.13/1.0.1/fastparse-utils_2.13-1.0.1.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalalib_2.13/0.8.0/mill-scalalib_2.13-0.8.0-sources.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.18.0/org.eclipse.xtend.lib.macro-2.18.0.jar
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.0.0/ipcsocket-1.0.0.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA-sources.jar
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalalib_2.13/0.8.0/mill-scalalib_2.13-0.8.0-sources.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.0.0-RC6-15/coursier-util_2.13-2.0.0-RC6-15.jar
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.13/1.0.1/fastparse-utils_2.13-1.0.1.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl-api_2.13.2/2.2.0/ammonite-repl-api_2.13.2-2.2.0-sources.jar
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl-api_2.13.2/2.2.0/ammonite-repl-api_2.13.2-2.2.0-sources.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.0.4/jsoniter-scala-core_2.13-2.0.4-sources.jar
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.18.0/org.eclipse.xtend.lib.macro-2.18.0.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib-api/0.8.0/mill-scalanativelib-api-0.8.0.jar
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.0.4/jsoniter-scala-core_2.13-2.0.4-sources.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1.jar
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl-api_2.13.2/2.2.0/ammonite-repl-api_2.13.2-2.2.0.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.10.3/scalapb-runtime_2.13-0.10.3.jar
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.0.0-RC6-15/coursier-util_2.13-2.0.0-RC6-15.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA-sources.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-core_2.13/0.8.0/mill-main-core_2.13-0.8.0.jar
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib-api/0.8.0/mill-scalanativelib-api-0.8.0.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-ops_2.13/2.2.0/ammonite-ops_2.13-2.2.0.jar
+2020.10.20 20:38:10 INFO  Downloaded https://repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1.jar
+2020.10.20 20:38:10 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.8.1/org.eclipse.lsp4j.generator-0.8.1-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.8.1/org.eclipse.lsp4j.generator-0.8.1-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/requests_2.13/0.6.5/requests_2.13-0.6.5.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-ops_2.13/2.2.0/ammonite-ops_2.13-2.2.0.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.8.1/org.eclipse.lsp4j.jsonrpc-0.8.1.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-core_2.13/0.8.0/mill-main-core_2.13-0.8.0.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.18.0/org.eclipse.xtext.xbase.lib-2.18.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.3.20/common_2.13-4.3.20.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main_2.13/0.8.0/mill-main_2.13-0.8.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/requests_2.13/0.6.5/requests_2.13-0.6.5.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.3.20/common_2.13-4.3.20-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.18.0/org.eclipse.xtext.xbase.lib-2.18.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.8.1/org.eclipse.lsp4j.generator-0.8.1.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.8.1/org.eclipse.lsp4j.jsonrpc-0.8.1.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main_2.13/0.8.0/mill-main_2.13-0.8.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalajslib-api_2.13/0.8.0/mill-scalajslib-api_2.13-0.8.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.3.20/common_2.13-4.3.20-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.3/windows-ansi-0.0.3.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.8.1/org.eclipse.lsp4j.generator-0.8.1.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.0.0-M6/bsp4j-2.0.0-M6.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalajslib-api_2.13/0.8.0/mill-scalajslib-api_2.13-0.8.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-runtime_2.13.2/2.2.0/ammonite-runtime_2.13.2-2.2.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.3/windows-ansi-0.0.3.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.18.0/org.eclipse.xtend.lib-2.18.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.0.0-M6/bsp4j-2.0.0-M6.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-runtime_2.13.2/2.2.0/ammonite-runtime_2.13.2-2.2.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-interp_2.13.2/2.2.0/ammonite-interp_2.13.2-2.2.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-interp_2.13.2/2.2.0/ammonite-interp_2.13.2-2.2.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalajslib_2.13/0.8.0/mill-scalajslib_2.13-0.8.0.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalajslib-api_2.13/0.8.0/mill-scalajslib-api_2.13-0.8.0.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.18.0/org.eclipse.xtend.lib-2.18.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalajslib_2.13/0.8.0/mill-scalajslib_2.13-0.8.0.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.4.0-RC1/bloop-config_2.13-1.4.0-RC1-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalajslib-api_2.13/0.8.0/mill-scalajslib-api_2.13-0.8.0.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.10.3/scalapb-runtime_2.13-0.10.3-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.4.0-RC1/bloop-config_2.13-1.4.0-RC1-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main_2.13/0.8.0/mill-main_2.13-0.8.0.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.10.3/scalapb-runtime_2.13-0.10.3-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.8.0/mill-contrib-bloop_2.13-0.8.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.10.3/scalapb-runtime_2.13-0.10.3.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.3.20/trees_2.13-4.3.20-sources.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.8.0/mill-contrib-bloop_2.13-0.8.0-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-interp_2.13.2/2.2.0/ammonite-interp_2.13.2-2.2.0.jar
+2020.10.20 20:38:11 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.3.20/trees_2.13-4.3.20-sources.jar
+2020.10.20 20:38:11 INFO  Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.4.0-RC1/bloop-config_2.13-1.4.0-RC1.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.4.0-RC1/bloop-config_2.13-1.4.0-RC1.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.0.0-RC6-15/coursier-cache_2.13-2.0.0-RC6-15.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main_2.13/0.8.0/mill-main_2.13-0.8.0.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.10.3/lenses_2.13-0.10.3-sources.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.0.0-RC6-15/coursier-cache_2.13-2.0.0-RC6-15.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0-sources.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.10.3/lenses_2.13-0.10.3-sources.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.0.4/jsoniter-scala-core_2.13-2.0.4.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0-sources.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.2.0/ujson_2.13-1.2.0-sources.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-interp_2.13.2/2.2.0/ammonite-interp_2.13.2-2.2.0.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.0.0/ipcsocket-1.0.0-sources.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.2.0/ujson_2.13-1.2.0-sources.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.13/2.2.0/ammonite-util_2.13-2.2.0.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.0.4/jsoniter-scala-core_2.13-2.0.4.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalalib_2.13/0.8.0/mill-scalalib_2.13-0.8.0.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.0.0/ipcsocket-1.0.0-sources.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.8.1/org.eclipse.lsp4j.jsonrpc-0.8.1-sources.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.13/2.2.0/ammonite-util_2.13-2.2.0.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.0.0/jna-platform-5.0.0-sources.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.8.1/org.eclipse.lsp4j.jsonrpc-0.8.1-sources.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-core_2.13/0.8.0/mill-main-core_2.13-0.8.0-sources.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-core_2.13/0.8.0/mill-main-core_2.13-0.8.0-sources.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/1.2.0/upickle-implicits_2.13-1.2.0-sources.jar
+2020.10.20 20:38:12 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/1.2.0/upickle-implicits_2.13-1.2.0-sources.jar
+2020.10.20 20:38:12 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.18.0/org.eclipse.xtext.xbase.lib-2.18.0.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.18.0/org.eclipse.xtend.lib-2.18.0.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.0.0/jna-platform-5.0.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.14.1/jline-terminal-3.14.1-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.18.0/org.eclipse.xtend.lib-2.18.0.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.18.0/org.eclipse.xtext.xbase.lib-2.18.0.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalajslib_2.13/0.8.0/mill-scalajslib_2.13-0.8.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal/3.14.1/jline-terminal-3.14.1-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-interp-api_2.13.2/2.2.0/ammonite-interp-api_2.13.2-2.2.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalalib-api_2.13/0.8.0/mill-scalalib-api_2.13-0.8.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib_2.13/0.8.0/mill-scalanativelib_2.13-0.8.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-interp-api_2.13.2/2.2.0/ammonite-interp-api_2.13.2-2.2.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite_2.13.2/2.2.0/ammonite_2.13.2-2.2.0.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalalib-api_2.13/0.8.0/mill-scalalib-api_2.13-0.8.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl_2.13.2/2.2.0/ammonite-repl_2.13.2-2.2.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalajslib_2.13/0.8.0/mill-scalajslib_2.13-0.8.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.14.1/jline-terminal-3.14.1.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib_2.13/0.8.0/mill-scalanativelib_2.13-0.8.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.0.0-RC6-15/coursier-util_2.13-2.0.0-RC6-15-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl_2.13.2/2.2.0/ammonite-repl_2.13.2-2.2.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.13/2.3.0/fastparse_2.13-2.3.0.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.0.0-RC6-15/coursier-util_2.13-2.0.0-RC6-15-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.0.0-RC6-15/coursier-cache_2.13-2.0.0-RC6-15-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalalib_2.13/0.8.0/mill-scalalib_2.13-0.8.0.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal/3.14.1/jline-terminal-3.14.1.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.14.1/jline-terminal-jna-3.14.1.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.0.0-RC6-15/coursier-cache_2.13-2.0.0-RC6-15-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/1.2.0/upickle_2.13-1.2.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite_2.13.2/2.2.0/ammonite_2.13.2-2.2.0.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.0.0-RC6-15/coursier_2.13-2.0.0-RC6-15-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/1.2.0/upickle_2.13-1.2.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib-api/0.8.0/mill-scalanativelib-api-0.8.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.14.1/jline-terminal-jna-3.14.1.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-terminal_2.13/2.2.0/ammonite-terminal_2.13-2.2.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.0.0-RC6-15/coursier_2.13-2.0.0-RC6-15-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.0.0-RC6-15/coursier_2.13-2.0.0-RC6-15.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib-api/0.8.0/mill-scalanativelib-api-0.8.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/fastparse_2.13/1.0.1/fastparse_2.13-1.0.1.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-terminal_2.13/2.2.0/ammonite-terminal_2.13-2.2.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/upack_2.13/1.2.0/upack_2.13-1.2.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/upack_2.13/1.2.0/upack_2.13-1.2.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-client/0.8.0/mill-main-client-0.8.0.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-client/0.8.0/mill-main-client-0.8.0.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-runtime_2.13.2/2.2.0/ammonite-runtime_2.13.2-2.2.0.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.0.0-RC6-15/coursier_2.13-2.0.0-RC6-15.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl_2.13.2/2.2.0/ammonite-repl_2.13.2-2.2.0.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-runtime_2.13.2/2.2.0/ammonite-runtime_2.13.2-2.2.0.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite_2.13.2/2.2.0/ammonite_2.13.2-2.2.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/fastparse_2.13/1.0.1/fastparse_2.13-1.0.1.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-api_2.13/0.8.0/mill-main-api_2.13-0.8.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl_2.13.2/2.2.0/ammonite-repl_2.13.2-2.2.0.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.13/1.2.0-M11/argonaut-shapeless_6.2_2.13-1.2.0-M11-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite_2.13.2/2.2.0/ammonite_2.13.2-2.2.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-interp-api_2.13.2/2.2.0/ammonite-interp-api_2.13.2-2.2.0.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.13/1.2.0-M11/argonaut-shapeless_6.2_2.13-1.2.0-M11-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/github/javaparser/javaparser-core/3.2.5/javaparser-core-3.2.5-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-api_2.13/0.8.0/mill-main-api_2.13-0.8.0-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.13/1.0.1/fastparse-utils_2.13-1.0.1-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-interp-api_2.13.2/2.2.0/ammonite-interp-api_2.13.2-2.2.0.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.3/windows-ansi-0.0.3-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.13/1.0.1/fastparse-utils_2.13-1.0.1-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-interfaces/2.2.1/scalafmt-interfaces-2.2.1-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.3/windows-ansi-0.0.3-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.13/2.3.0/fastparse_2.13-2.3.0.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1-sources.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-interfaces/2.2.1/scalafmt-interfaces-2.2.1-sources.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/scalaparse_2.13/2.3.0/scalaparse_2.13-2.3.0.jar
+2020.10.20 20:38:14 INFO  Downloaded https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar
+2020.10.20 20:38:14 INFO  Downloading https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3-sources.jar
+2020.10.20 20:38:15 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/scalaparse_2.13/2.3.0/scalaparse_2.13-2.3.0.jar
+2020.10.20 20:38:15 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-dynamic_2.13/2.2.1/scalafmt-dynamic_2.13-2.2.1-sources.jar
+2020.10.20 20:38:15 INFO  Downloaded https://repo1.maven.org/maven2/com/github/javaparser/javaparser-core/3.2.5/javaparser-core-3.2.5-sources.jar
+2020.10.20 20:38:15 INFO  Downloading https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3.jar
+2020.10.20 20:38:16 INFO    0 53.7M    0 17566    0     0  20812      0  0:45:06 --:--:--  0:45:06 20812  3 53.7M    3 2166k    0     0  1216k      0  0:00:45  0:00:01  0:00:44 2294k  9 53.7M    9 5124k    0     0  1840k      0  0:00:29  0:00:02  0:00:27 2631k 14 53.7M   14 8032k    0     0  2123k      0  0:00:25  0:00:03  0:00:22 2727k 18 53.7M   18 10.1M    0     0  2152k      0  0:00:25  0:00:04  0:00:21 2605k 21 53.7M   21 11.7M    0     0  2077k      0  0:00:26  0:00:05  0:00:21 2428k 23 53.7M   23 12.8M    0     0  1938k      0  0:00:28  0:00:06  0:00:22 2196k 26 53.7M   26 14.0M    0     0  1844k      0  0:00:29  0:00:07  0:00:22 1846k 28 53.7M   28 15.1M    0     0  1770k      0  0:00:31  0:00:08  0:00:23 1502k 30 53.7M   30 16.5M    0     0  1721k      0  0:00:31  0:00:09  0:00:22 1309k 33 53.7M   33 17.9M    0     0  1704k      0  0:00:32  0:00:10  0:00:22 1272k 36 53.7M   36 19.7M    0     0  1710k      0  0:00:32  0:00:11  0:00:21 1402k 38 53.7M   38 20.8M    0     0  1666k      0  0:00:33  0:00:12  0:00:21 1392k 40 53.7M   40 21.8M    0     0  1622k      0  0:00:33  0:00:13  0:00:20 1363k 42 53.7M   42 22.8M    0     0  1576k      0  0:00:34  0:00:14  0:00:20 1288k 44 53.7M   44 23.7M    0     0  1541k      0  0:00:35  0:00:15  0:00:20 1188k 46 53.7M   46 24.7M    0     0  1509k      0  0:00:36  0:00:16  0:00:20 1028k 48 53.7M   48 25.8M    0     0  1487k      0  0:00:36  0:00:17  0:00:19 1020k 50 53.7M   50 26.9M    0     0  1471k      0  0:00:37  0:00:18  0:00:19 1053k 52 53.7M   52 28.3M    0     0  1463k      0  0:00:37  0:00:19  0:00:18 1129k 55 53.7M   55 29.8M    0     0  1472k      0  0:00:37  0:00:20  0:00:17 1255k 59 53.7M   59 32.0M    0     0  1505k      0  0:00:36  0:00:21  0:00:15 1495k 63 53.7M   63 34.2M    0     0  1538k      0  0:00:35  0:00:22  0:00:13 1720k 67 53.7M   67 36.1M    0     0  1554k      0  0:00:35  0:00:23  0:00:12 1864k 71 53.7M   71 38.3M    0     0  1583k      0  0:00:34  0:00:24  0:00:10 2058k 75 53.7M   75 40.7M    0     0  1617k      0  0:00:34  0:00:25  0:00:09 2217k 79 53.7M   79 42.7M    0     0  1630k      0  0:00:33  0:00:26  0:00:07 2170k 82 53.7M   82 44.3M    0     0  1632k      0  0:00:33  0:00:27  0:00:06 2064k 85 53.7M   85 45.9M    0     0  1633k      0  0:00:33  0:00:28  0:00:05 2011k 88 53.7M   88 47.6M    0     0  1635k      0  0:00:33  0:00:29  0:00:04 1895k 91 53.7M   91 49.2M    0     0  1637k      0  0:00:33  0:00:30  0:00:03 1741k 93 53.7M   93 50.1M    0     0  1601k      0  0:00:34  0:00:32  0:00:02 1453k 94 53.7M   94 50.7M    0     0  1586k      0  0:00:34  0:00:32  0:00:02 1328k 95 53.7M   95 51.4M    0     0  1559k      0  0:00:35  0:00:33  0:00:02 1130k 97 53.7M   97 52.3M    0     0  1539k      0  0:00:35  0:00:34  0:00:01  964k 99 53.7M   99 53.3M    0     0  1527k      0  0:00:36  0:00:35  0:00:01  849k100 53.7M  100 53.7M    0     0  1525k      0  0:00:36  0:00:36 --:--:--  908k
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-ops_2.13/2.2.0/ammonite-ops_2.13-2.2.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/fastparse_2.13/1.0.1/fastparse_2.13-1.0.1-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-terminal_2.13/2.2.0/ammonite-terminal_2.13-2.2.0.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.14.1/jline-terminal-jna-3.14.1-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.10.3/lenses_2.13-0.10.3.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.10.3/lenses_2.13-0.10.3.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.0.0-RC6-15/coursier-core_2.13-2.0.0-RC6-15.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.14.1/jline-terminal-jna-3.14.1-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.13/2.2.0/ammonite-util_2.13-2.2.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/fastparse_2.13/1.0.1/fastparse_2.13-1.0.1-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-dynamic_2.13/2.2.1/scalafmt-dynamic_2.13-2.2.1-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-ops_2.13/2.2.0/ammonite-ops_2.13-2.2.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/requests_2.13/0.6.5/requests_2.13-0.6.5-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-terminal_2.13/2.2.0/ammonite-terminal_2.13-2.2.0.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.18.0/org.eclipse.xtend.lib.macro-2.18.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/requests_2.13/0.6.5/requests_2.13-0.6.5-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.0.0-RC6-15/coursier-core_2.13-2.0.0-RC6-15-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.13/2.2.0/ammonite-util_2.13-2.2.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-dynamic_2.13/2.2.1/scalafmt-dynamic_2.13-2.2.1-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.13/2.3.0/fastparse_2.13-2.3.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.18.0/org.eclipse.xtend.lib.macro-2.18.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-dynamic_2.13/2.2.1/scalafmt-dynamic_2.13-2.2.1.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.13/2.3.0/fastparse_2.13-2.3.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-client/0.8.0/mill-main-client-0.8.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.0.0-RC6-15/coursier-core_2.13-2.0.0-RC6-15-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-interfaces/2.2.1/scalafmt-interfaces-2.2.1.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-client/0.8.0/mill-main-client-0.8.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.3.20/trees_2.13-4.3.20.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-dynamic_2.13/2.2.1/scalafmt-dynamic_2.13-2.2.1.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-interfaces/2.2.1/scalafmt-interfaces-2.2.1.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.13/1.2.0-M11/argonaut-shapeless_6.2_2.13-1.2.0-M11.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.0.0-M6/bsp4j-2.0.0-M6-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.0.0-M6/bsp4j-2.0.0-M6-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3-sources.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.13/1.2.0-M11/argonaut-shapeless_6.2_2.13-1.2.0-M11.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-moduledefs_2.13/0.8.0/mill-main-moduledefs_2.13-0.8.0.jar
+2020.10.20 20:38:18 INFO  Downloaded https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3-sources.jar
+2020.10.20 20:38:18 INFO  Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3-sources.jar
+2020.10.20 20:38:19 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-moduledefs_2.13/0.8.0/mill-main-moduledefs_2.13-0.8.0.jar
+2020.10.20 20:38:19 INFO  Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.0.0/jna-platform-5.0.0.jar
+2020.10.20 20:38:19 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.0.0-RC6-15/coursier-core_2.13-2.0.0-RC6-15.jar
+2020.10.20 20:38:19 INFO  Downloading https://repo1.maven.org/maven2/com/github/javaparser/javaparser-core/3.2.5/javaparser-core-3.2.5.jar
+2020.10.20 20:38:19 INFO  Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3-sources.jar
+2020.10.20 20:38:19 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/scalaparse_2.13/2.3.0/scalaparse_2.13-2.3.0-sources.jar
+2020.10.20 20:38:19 INFO  Downloaded https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3.jar
+2020.10.20 20:38:19 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/1.2.0/upickle-core_2.13-1.2.0-sources.jar
+2020.10.20 20:38:19 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/scalaparse_2.13/2.3.0/scalaparse_2.13-2.3.0-sources.jar
+2020.10.20 20:38:19 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib_2.13/0.8.0/mill-scalanativelib_2.13-0.8.0.jar
+2020.10.20 20:38:19 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/1.2.0/upickle-core_2.13-1.2.0-sources.jar
+2020.10.20 20:38:19 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.8.0/mill-contrib-bloop_2.13-0.8.0.jar
+2020.10.20 20:38:19 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib_2.13/0.8.0/mill-scalanativelib_2.13-0.8.0.jar
+2020.10.20 20:38:19 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-moduledefs_2.13/0.8.0/mill-main-moduledefs_2.13-0.8.0-sources.jar
+2020.10.20 20:38:19 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-moduledefs_2.13/0.8.0/mill-main-moduledefs_2.13-0.8.0-sources.jar
+2020.10.20 20:38:19 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.8.0/mill-contrib-bloop_2.13-0.8.0.jar
+2020.10.20 20:38:19 INFO  Downloaded https://repo1.maven.org/maven2/com/github/javaparser/javaparser-core/3.2.5/javaparser-core-3.2.5.jar
+2020.10.20 20:38:19 INFO  Downloaded https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4-sources.jar
+2020.10.20 20:38:20 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.3.20/trees_2.13-4.3.20.jar
+2020.10.20 20:38:20 INFO  Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.0.0/jna-platform-5.0.0.jar
+2020.10.20 20:38:20 INFO  Compiling /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/metals7275420460704904334/predef.sc
+2020.10.20 20:38:25 INFO  Compiling /Users/mdeguz/Documents/Projects/scala/mill_example/example-3/build.sc
+2020.10.20 20:38:27 INFO  [1/42] foo.sources 
+2020.10.20 20:38:27 INFO  [2/42] foo.generatedSources 
+2020.10.20 20:38:27 INFO  [3/42] foo.allSources 
+2020.10.20 20:38:27 INFO  [4/42] foo.test.sources 
+2020.10.20 20:38:27 INFO  [5/42] foo.test.generatedSources 
+2020.10.20 20:38:27 INFO  [6/42] foo.test.allSources 
+2020.10.20 20:38:27 INFO  [7/42] mill.contrib.bloop.BloopImpl.moduleSourceMap 
+2020.10.20 20:38:27 INFO  [8/42] foo.unmanagedClasspath 
+2020.10.20 20:38:27 INFO  [9/42] foo.scalaVersion 
+2020.10.20 20:38:27 INFO  [10/42] foo.platformSuffix 
+2020.10.20 20:38:27 INFO  [11/42] foo.compileIvyDeps 
+2020.10.20 20:38:27 INFO  [12/42] foo.ivyDeps 
+2020.10.20 20:38:27 INFO  [13/42] foo.transitiveIvyDeps 
+2020.10.20 20:38:27 INFO  [14/42] foo.scalaOrganization 
+2020.10.20 20:38:27 INFO  [15/42] foo.scalaLibraryIvyDeps 
+2020.10.20 20:38:27 INFO  [16/42] foo.resources 
+2020.10.20 20:38:27 INFO  [17/42] foo.scalacPluginIvyDeps 
+2020.10.20 20:38:27 INFO  [18/42] foo.scalacPluginClasspath 
+2020.10.20 20:38:27 INFO  [19/42] foo.scalacOptions 
+2020.10.20 20:38:27 INFO  [20/42] foo.scalaCompilerClasspath 
+2020.10.20 20:38:27 INFO  [21/42] foo.javacOptions 
+2020.10.20 20:38:27 INFO  [22/42] foo.forkArgs 
+2020.10.20 20:38:27 INFO  [23/42] foo.mainClass 
+2020.10.20 20:38:27 INFO  [24/42] foo.bloop.config 
+2020.10.20 20:38:27 INFO  [25/42] foo.bloop.writeConfig 
+2020.10.20 20:38:27 INFO  Wrote /Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop/foo.json
+2020.10.20 20:38:27 INFO  [26/42] foo.test.unmanagedClasspath 
+2020.10.20 20:38:27 INFO  [27/42] foo.test.scalaVersion 
+2020.10.20 20:38:27 INFO  [28/42] foo.test.platformSuffix 
+2020.10.20 20:38:27 INFO  [29/42] foo.test.compileIvyDeps 
+2020.10.20 20:38:27 INFO  [30/42] foo.test.ivyDeps 
+2020.10.20 20:38:27 INFO  [31/42] foo.test.transitiveIvyDeps 
+2020.10.20 20:38:27 INFO  [32/42] foo.test.scalaOrganization 
+2020.10.20 20:38:27 INFO  [33/42] foo.test.scalaLibraryIvyDeps 
+2020.10.20 20:38:27 INFO  [34/42] foo.test.resources 
+2020.10.20 20:38:27 INFO  [35/42] foo.test.scalacPluginClasspath 
+2020.10.20 20:38:27 INFO  [36/42] foo.test.scalaCompilerClasspath 
+2020.10.20 20:38:28 INFO  [37/42] foo.test.testFrameworks 
+2020.10.20 20:38:28 INFO  [38/42] foo.test.forkArgs 
+2020.10.20 20:38:28 INFO  [39/42] foo.test.mainClass 
+2020.10.20 20:38:28 INFO  [40/42] foo.test.bloop.config 
+2020.10.20 20:38:28 INFO  [40/42] foo.test.bloop.config | Downloading [1/1] artifacts (~0/0 bytes)
+2020.10.20 20:38:28 INFO  [40/42] foo.test.bloop.config | Downloading [1/1] artifacts (~0/1617 bytes)
+2020.10.20 20:38:28 INFO  [40/42] foo.test.bloop.config | Downloading [1/1] artifacts (~1617/1617 bytes)
+2020.10.20 20:38:28 INFO  [40/42] foo.test.bloop.config | Downloading [1/1] artifacts (~1617/1617 bytes)
+2020.10.20 20:38:28 INFO  [40/42] foo.test.bloop.config | Downloading [2/2] artifacts (~1617/1617 bytes)
+2020.10.20 20:38:28 INFO  [40/42] foo.test.bloop.config | Downloading [2/2] artifacts (~1617/4060 bytes)
+2020.10.20 20:38:28 INFO  [40/42] foo.test.bloop.config | Downloading [2/2] artifacts (~4060/4060 bytes)
+2020.10.20 20:38:28 INFO  [40/42] foo.test.bloop.config | Downloading [2/2] artifacts (~4060/4060 bytes)
+2020.10.20 20:38:28 INFO  [41/42] foo.test.bloop.writeConfig 
+2020.10.20 20:38:28 INFO  Wrote /Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop/foo.test.json
+2020.10.20 20:38:28 INFO  [42/42] mill.contrib.bloop.BloopImpl.install 
+2020.10.20 20:38:28 INFO  build tool exit: 0
+2020.10.20 20:38:29 INFO  time: ran 'mill bloopInstall' in 48s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher4342126296763881380/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.10.20 20:38:33 INFO  Still downloading:
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-interfaces/2.2.1/scalafmt-interfaces-2.2.1.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-client/0.8.0/mill-main-client-0.8.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.0.0/jna-platform-5.0.0.jar
+2020.10.20 20:38:33 INFO  https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar (64.70 %, 963497 / 1489218)
+2020.10.20 20:38:33 INFO  
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-dynamic_2.13/2.2.1/scalafmt-dynamic_2.13-2.2.1-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.0.0-M6/bsp4j-2.0.0-M6-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-terminal_2.13/2.2.0/ammonite-terminal_2.13-2.2.0.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-client/0.8.0/mill-main-client-0.8.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-moduledefs_2.13/0.8.0/mill-main-moduledefs_2.13-0.8.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-moduledefs_2.13/0.8.0/mill-main-moduledefs_2.13-0.8.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib_2.13/0.8.0/mill-scalanativelib_2.13-0.8.0.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-interfaces/2.2.1/scalafmt-interfaces-2.2.1.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.14.1/jline-terminal-jna-3.14.1-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-scalanativelib_2.13/0.8.0/mill-scalanativelib_2.13-0.8.0.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/requests_2.13/0.6.5/requests_2.13-0.6.5-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/scalaparse_2.13/2.3.0/scalaparse_2.13-2.3.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/requests_2.13/0.6.5/requests_2.13-0.6.5-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/github/javaparser/javaparser-core/3.2.5/javaparser-core-3.2.5.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/scalaparse_2.13/2.3.0/scalaparse_2.13-2.3.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.0.0-M6/bsp4j-2.0.0-M6-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.8.0/mill-contrib-bloop_2.13-0.8.0.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.14.1/jline-terminal-jna-3.14.1-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-dynamic_2.13/2.2.1/scalafmt-dynamic_2.13-2.2.1.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-terminal_2.13/2.2.0/ammonite-terminal_2.13-2.2.0.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/1.2.0/upickle-core_2.13-1.2.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/1.2.0/upickle-core_2.13-1.2.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.18.0/org.eclipse.xtend.lib.macro-2.18.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.8.0/mill-contrib-bloop_2.13-0.8.0.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.13/2.2.0/ammonite-util_2.13-2.2.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-dynamic_2.13/2.2.1/scalafmt-dynamic_2.13-2.2.1.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.10.3/lenses_2.13-0.10.3.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/fastparse_2.13/1.0.1/fastparse_2.13-1.0.1-sources.jar
+Waiting for the bsp connection to come up...
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.18.0/org.eclipse.xtend.lib.macro-2.18.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.0.0-RC6-15/coursier-core_2.13-2.0.0-RC6-15-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.13/2.2.0/ammonite-util_2.13-2.2.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.13/2.3.0/fastparse_2.13-2.3.0-sources.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/fastparse_2.13/1.0.1/fastparse_2.13-1.0.1-sources.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.13/1.2.0-M11/argonaut-shapeless_6.2_2.13-1.2.0-M11.jar
+2020.10.20 20:38:33 INFO  Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.10.3/lenses_2.13-0.10.3.jar
+2020.10.20 20:38:33 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-main-moduledefs_2.13/0.8.0/mill-main-moduledefs_2.13-0.8.0.jar
+2020.10.20 20:38:34 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.0.0-RC6-15/coursier-core_2.13-2.0.0-RC6-15-sources.jar
+2020.10.20 20:38:34 INFO  Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.0.0-RC6-15/coursier-core_2.13-2.0.0-RC6-15.jar
+2020.10.20 20:38:34 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.13/2.3.0/fastparse_2.13-2.3.0-sources.jar
+2020.10.20 20:38:34 INFO  Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.3.20/trees_2.13-4.3.20.jar
+2020.10.20 20:38:34 INFO  Downloaded https://repo1.maven.org/maven2/com/github/javaparser/javaparser-core/3.2.5/javaparser-core-3.2.5.jar
+2020.10.20 20:38:34 INFO  Downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4-sources.jar
+2020.10.20 20:38:34 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-main-moduledefs_2.13/0.8.0/mill-main-moduledefs_2.13-0.8.0.jar
+2020.10.20 20:38:34 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/ammonite-ops_2.13/2.2.0/ammonite-ops_2.13-2.2.0-sources.jar
+2020.10.20 20:38:34 INFO  Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.13/1.2.0-M11/argonaut-shapeless_6.2_2.13-1.2.0-M11.jar
+2020.10.20 20:38:34 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/ammonite-ops_2.13/2.2.0/ammonite-ops_2.13-2.2.0-sources.jar
+2020.10.20 20:38:34 INFO  Downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1-sources.jar.sha1
+2020.10.20 20:38:34 INFO  Downloading https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3-sources.jar.sha1
+2020.10.20 20:38:34 INFO  Downloaded https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3-sources.jar.sha1
+2020.10.20 20:38:34 INFO  Downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar.sha1
+2020.10.20 20:38:34 INFO  Downloaded https://repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1-sources.jar.sha1
+2020.10.20 20:38:34 INFO  Downloading https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar.sha1
+2020.10.20 20:38:34 INFO  Downloaded https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar.sha1
+2020.10.20 20:38:34 INFO  Downloaded https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar.sha1
+2020.10.20 20:38:34 INFO  Downloaded https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4-sources.jar
+Waiting for the bsp connection to come up...
+2020.10.20 20:38:35 INFO  Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.0.0-RC6-15/coursier-core_2.13-2.0.0-RC6-15.jar
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.10.20 20:38:38 INFO  Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.0.0/jna-platform-5.0.0.jar
+Waiting for the bsp connection to come up...
+2020.10.20 20:38:39 INFO  Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.3.20/trees_2.13-4.3.20.jar
+2020.10.20 20:38:39 INFO  Failed to resolve ivy dependencies:https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar: download error: Caught java.nio.file.NoSuchFileException: /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/.guava-21.0-sources.jar.part -> /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar (/Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/.guava-21.0-sources.jar.part -> /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar) while downloading https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar
+2020.10.20 20:38:39 INFO  https://repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1-sources.jar: download error: Caught java.nio.file.NoSuchFileException: /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/.jline-reader-3.14.1-sources.jar.part -> /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1-sources.jar (/Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/.jline-reader-3.14.1-sources.jar.part -> /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1-sources.jar) while downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.14.1/jline-reader-3.14.1-sources.jar
+2020.10.20 20:38:39 INFO  https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar: download error: Caught java.nio.file.NoSuchFileException: /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/.jansi-1.18.jar.part -> /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar (/Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/.jansi-1.18.jar.part -> /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar) while downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar
+2020.10.20 20:38:39 INFO  https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3-sources.jar: download error: Caught java.nio.file.NoSuchFileException: /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/.argonaut_2.13-6.2.3-sources.jar.part -> /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3-sources.jar (/Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/.argonaut_2.13-6.2.3-sources.jar.part -> /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3-sources.jar) while downloading https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3-sources.jar
+2020.10.20 20:38:39 INFO  
+Waiting for the bsp connection to come up...
+2020.10.20 20:38:39 INFO  build tool exit: 1
+2020.10.20 20:38:40 INFO  time: ran 'mill bloopInstall' in 1m
+2020.10.20 20:38:40 ERROR Mill command failed: /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/metals7411162393093264132/millw --mill-version 0.8.0 --predef /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/metals7411162393093264132/predef.sc mill.contrib.Bloop/install
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher7380139732960974217/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.4-13-408f4d80...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop/foo.test.json'
+[0m[32m[D][0m Loading project from '/Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop/foo.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.2.
+[0m[32m[D][0m   => /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar
+[0m[32m[D][0m   => /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar
+[0m[32m[D][0m   => /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar
+[0m[32m[D][0m   => /Users/mdeguz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar
+[0m[32m[D][0m Missing analysis file for project 'foo.test'
+[0m[32m[D][0m Missing analysis file for project 'foo'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher7380139732960974217/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher7380139732960974217/bsp.socket...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.4-13-408f4d80...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop/foo.test.json'
+[0m[32m[D][0m Loading project from '/Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop/foo.json'
+[0m[32m[D][0m Missing analysis file for project 'foo'
+[0m[32m[D][0m Missing analysis file for project 'foo.test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher4342126296763881380/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher4342126296763881380/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.20 20:38:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mdeguz/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.10.20 20:38:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mdeguz/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.10.20 20:38:49 INFO  time: connected to build server in 9.52s
+2020.10.20 20:38:49 INFO  time: connected to build server in 20s
+2020.10.20 20:38:49 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.20 20:38:49 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.20 20:38:49 WARN  File watching failed, indexes will not be updated.
+java.nio.file.FileAlreadyExistsException: /Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop/out/foo.test/bloop-bsp-clients-classes/classes-Metals-yxjOL2T4RTa56GrwvLS8IQ==/META-INF
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:88)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.createDirectory(UnixFileSystemProvider.java:384)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionAbsolutePathBuffers.$anonfun$createAndGetDirectories$1(MetalsEnrichments.scala:341)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionAbsolutePathBuffers.createDirectoriesRec$1(MetalsEnrichments.scala:341)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionAbsolutePathBuffers.createAndGetDirectories(MetalsEnrichments.scala:345)
+	at scala.meta.internal.metals.FileWatcher.watch$1(FileWatcher.scala:95)
+	at scala.meta.internal.metals.FileWatcher.$anonfun$restart$5(FileWatcher.scala:121)
+	at scala.meta.internal.metals.FileWatcher.$anonfun$restart$5$adapted(FileWatcher.scala:116)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.FileWatcher.$anonfun$restart$4(FileWatcher.scala:116)
+	at scala.meta.internal.metals.FileWatcher.$anonfun$restart$4$adapted(FileWatcher.scala:114)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.MapLike$DefaultValuesIterable.foreach(MapLike.scala:213)
+	at scala.meta.internal.metals.FileWatcher.restart(FileWatcher.scala:114)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$5(MetalsLanguageServer.scala:1951)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.MetalsLanguageServer.timedThunk(MetalsLanguageServer.scala:1849)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:1950)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:1876)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.MetalsLanguageServer.timedThunk(MetalsLanguageServer.scala:1849)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:1876)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.10.20 20:38:52 INFO  time: indexed workspace in 2.26s
+2020.10.20 20:38:52 INFO  time: indexed workspace in 2.52s
+2020.10.20 20:39:40 INFO    0 53.7M    0 33334    0     0  38896      0  0:24:08 --:--:--  0:24:08 38896  4 53.7M    4 2693k    0     0  1491k      0  0:00:36  0:00:01  0:00:35 2803k 10 53.7M   10 5541k    0     0  1971k      0  0:00:27  0:00:02  0:00:25 2820k 14 53.7M   14 8245k    0     0  2164k      0  0:00:25  0:00:03  0:00:22 2782k 18 53.7M   18 10.0M    0     0  2130k      0  0:00:25  0:00:04  0:00:21 2583k 22 53.7M   22 11.9M    0     0  2102k      0  0:00:26  0:00:05  0:00:21 2458k 24 53.7M   24 13.0M    0     0  1945k      0  0:00:28  0:00:06  0:00:22 2109k 25 53.7M   25 13.6M    0     0  1791k      0  0:00:30  0:00:07  0:00:23 1690k 26 53.7M   26 14.2M    0     0  1657k      0  0:00:33  0:00:08  0:00:25 1271k 27 53.7M   27 14.9M    0     0  1551k      0  0:00:35  0:00:09  0:00:26 1000k 29 53.7M   29 15.6M    0     0  1481k      0  0:00:37  0:00:10  0:00:27  754k 30 53.7M   30 16.2M    0     0  1408k      0  0:00:39  0:00:11  0:00:28  672k 30 53.7M   30 16.4M    0     0  1315k      0  0:00:41  0:00:12  0:00:29  570k 31 53.7M   31 16.6M    0     0  1233k      0  0:00:44  0:00:13  0:00:31  487k 31 53.7M   31 16.9M    0     0  1171k      0  0:00:46  0:00:14  0:00:32  417k 32 53.7M   32 17.3M    0     0  1120k      0  0:00:49  0:00:15  0:00:34  346k 32 53.7M   32 17.7M    0     0  1079k      0  0:00:50  0:00:16  0:00:34  295k 33 53.7M   33 18.2M    0     0  1046k      0  0:00:52  0:00:17  0:00:35  357k 34 53.7M   34 18.5M    0     0  1011k      0  0:00:54  0:00:18  0:00:36  395k 35 53.7M   35 18.9M    0     0   980k      0  0:00:56  0:00:19  0:00:37  411k 35 53.7M   35 19.3M    0     0   951k      0  0:00:57  0:00:20  0:00:37  412k 36 53.7M   36 19.6M    0     0   923k      0  0:00:59  0:00:21  0:00:38  399k 37 53.7M   37 19.9M    0     0   895k      0  0:01:01  0:00:22  0:00:39  362k 37 53.7M   37 20.3M    0     0   873k      0  0:01:02  0:00:23  0:00:39  355k 38 53.7M   38 20.5M    0     0   848k      0  0:01:04  0:00:24  0:00:40  326k 38 53.7M   38 20.8M    0     0   826k      0  0:01:06  0:00:25  0:00:41  307k 39 53.7M   39 21.1M    0     0   807k      0  0:01:08  0:00:26  0:00:42  302k 40 53.7M   40 21.5M    0     0   792k      0  0:01:09  0:00:27  0:00:42  323k 40 53.7M   40 21.8M    0     0   777k      0  0:01:10  0:00:28  0:00:42  318k 41 53.7M   41 22.2M    0     0   762k      0  0:01:12  0:00:29  0:00:43  339k 42 53.7M   42 22.6M    0     0   750k      0  0:01:13  0:00:30  0:00:43  362k 42 53.7M   42 22.8M    0     0   737k      0  0:01:14  0:00:31  0:00:43  357k 43 53.7M   43 23.0M    0     0   719k      0  0:01:16  0:00:32  0:00:44  313k 43 53.7M   43 23.1M    0     0   699k      0  0:01:18  0:00:33  0:00:45  257k 43 53.7M   43 23.2M    0     0   683k      0  0:01:20  0:00:34  0:00:46  202k 43 53.7M   43 23.3M    0     0   668k      0  0:01:22  0:00:35  0:00:47  154k 43 53.7M   43 23.5M    0     0   655k      0  0:01:23  0:00:36  0:00:47  137k 44 53.7M   44 23.8M    0     0   644k      0  0:01:25  0:00:37  0:00:48  150k 44 53.7M   44 24.1M    0     0   635k      0  0:01:26  0:00:38  0:00:48  202k 45 53.7M   45 24.4M    0     0   628k      0  0:01:27  0:00:39  0:00:48  246k 46 53.7M   46 24.8M    0     0   621k      0  0:01:28  0:00:40  0:00:48  292k 46 53.7M   46 25.0M    0     0   612k      0  0:01:29  0:00:41  0:00:48  295k 47 53.7M   47 25.2M    0     0   604k      0  0:01:31  0:00:42  0:00:49  298k 47 53.7M   47 25.6M    0     0   598k      0  0:01:31  0:00:43  0:00:48  306k 48 53.7M   48 25.9M    0     0   592k      0  0:01:32  0:00:44  0:00:48  312k 49 53.7M   49 26.3M    0     0   589k      0  0:01:33  0:00:45  0:00:48  327k 50 53.7M   50 26.8M    0     0   587k      0  0:01:33  0:00:46  0:00:47  382k 50 53.7M   50 27.3M    0     0   586k      0  0:01:33  0:00:47  0:00:46  430k 51 53.7M   51 27.8M    0     0   582k      0  0:01:34  0:00:48  0:00:46  445k 52 53.7M   52 28.1M    0     0   578k      0  0:01:35  0:00:49  0:00:46  448k 53 53.7M   53 28.5M    0     0   574k      0  0:01:35  0:00:50  0:00:45  436k 53 53.7M   53 28.9M    0     0   571k      0  0:01:36  0:00:51  0:00:45  415k 54 53.7M   54 29.1M    0     0   563k      0  0:01:37  0:00:52  0:00:45  350k 54 53.7M   54 29.3M    0     0   557k      0  0:01:38  0:00:53  0:00:45  313k 54 53.7M   54 29.4M    0     0   550k      0  0:01:39  0:00:54  0:00:45  275k 55 53.7M   55 29.7M    0     0   545k      0  0:01:40  0:00:55  0:00:45  244k 55 53.7M   55 29.9M    0     0   540k      0  0:01:41  0:00:56  0:00:45  217k 56 53.7M   56 30.2M    0     0   535k      0  0:01:42  0:00:57  0:00:45  225k 56 53.7M   56 30.5M    0     0   530k      0  0:01:43  0:00:58  0:00:45  242k 57 53.7M   57 30.8M    0     0   527k      0  0:01:44  0:00:59  0:00:45  274k 58 53.7M   58 31.3M    0     0   527k      0  0:01:44  0:01:00  0:00:44  328k 59 53.7M   59 31.7M    0     0   526k      0  0:01:44  0:01:01  0:00:43  371k 60 53.7M   60 32.2M    0     0   526k      0  0:01:44  0:01:02  0:00:42  425k 61 53.7M   61 32.8M    0     0   527k      0  0:01:44  0:01:03  0:00:41  482k 62 53.7M   62 33.5M    0     0   529k      0  0:01:43  0:01:04  0:00:39  553k 63 53.7M   63 34.2M    0     0   533k      0  0:01:43  0:01:05  0:00:38  605k 65 53.7M   65 35.1M    0     0   538k      0  0:01:42  0:01:06  0:00:36  689k 67 53.7M   67 36.0M    0     0   544k      0  0:01:41  0:01:07  0:00:34  769k 68 53.7M   68 36.9M    0     0   549k      0  0:01:40  0:01:08  0:00:32  831k 70 53.7M   70 37.8M    0     0   554k      0  0:01:39  0:01:09  0:00:30  874k 71 53.7M   71 38.5M    0     0   557k      0  0:01:38  0:01:10  0:00:28  875k 72 53.7M   72 39.0M    0     0   556k      0  0:01:38  0:01:11  0:00:27  797k 73 53.7M   73 39.3M    0     0   553k      0  0:01:39  0:01:12  0:00:27  676k 73 53.7M   73 39.6M    0     0   550k      0  0:01:39  0:01:13  0:00:26  569k 74 53.7M   74 40.0M    0     0   547k      0  0:01:40  0:01:14  0:00:26  457k 75 53.7M   75 40.4M    0     0   545k      0  0:01:40  0:01:15  0:00:25  380k 75 53.7M   75 40.6M    0     0   540k      0  0:01:41  0:01:16  0:00:25  318k 75 53.7M   75 40.8M    0     0   536k      0  0:01:42  0:01:17  0:00:25  298k 76 53.7M   76 41.0M    0     0   533k      0  0:01:43  0:01:18  0:00:25  274k 76 53.7M   76 41.3M    0     0   530k      0  0:01:43  0:01:19  0:00:24  263k 77 53.7M   77 41.6M    0     0   526k      0  0:01:44  0:01:20  0:00:24  245k 77 53.7M   77 41.7M    0     0   522k      0  0:01:45  0:01:21  0:00:24  241k 77 53.7M   77 41.8M    0     0   517k      0  0:01:46  0:01:22  0:00:24  218k 78 53.7M   78 41.9M    0     0   512k      0  0:01:47  0:01:23  0:00:24  190k 78 53.7M   78 42.0M    0     0   507k      0  0:01:48  0:01:24  0:00:24  142k 78 53.7M   78 42.1M    0     0   502k      0  0:01:49  0:01:25  0:00:24  110k 78 53.7M   78 42.3M    0     0   498k      0  0:01:50  0:01:26  0:00:24  106k 79 53.7M   79 42.4M    0     0   495k      0  0:01:51  0:01:27  0:00:24  120k 79 53.7M   79 42.7M    0     0   492k      0  0:01:51  0:01:28  0:00:23  161k 80 53.7M   80 43.0M    0     0   491k      0  0:01:51  0:01:29  0:00:22  216k 80 53.7M   80 43.5M    0     0   490k      0  0:01:52  0:01:30  0:00:22  276k 81 53.7M   81 43.8M    0     0   489k      0  0:01:52  0:01:31  0:00:21  319k 82 53.7M   82 44.1M    0     0   486k      0  0:01:53  0:01:32  0:00:21  338k 82 53.7M   82 44.3M    0     0   484k      0  0:01:53  0:01:33  0:00:20  329k 83 53.7M   83 44.5M    0     0   480k      0  0:01:54  0:01:34  0:00:20  298k 83 53.7M   83 44.7M    0     0   477k      0  0:01:55  0:01:35  0:00:20  250k 83 53.7M   83 44.9M    0     0   474k      0  0:01:55  0:01:36  0:00:19  213k 84 53.7M   84 45.1M    0     0   472k      0  0:01:56  0:01:37  0:00:19  213k 84 53.7M   84 45.5M    0     0   471k      0  0:01:56  0:01:38  0:00:18  237k 85 53.7M   85 45.8M    0     0   470k      0  0:01:56  0:01:39  0:00:17  271k 86 53.7M   86 46.3M    0     0   470k      0  0:01:56  0:01:40  0:00:16  331k 86 53.7M   86 46.7M    0     0   469k      0  0:01:57  0:01:41  0:00:16  362k 87 53.7M   87 47.1M    0     0   469k      0  0:01:57  0:01:42  0:00:15  395k 88 53.7M   88 47.6M    0     0   469k      0  0:01:57  0:01:43  0:00:14  429k 89 53.7M   89 48.0M    0     0   469k      0  0:01:57  0:01:44  0:00:13  444k 90 53.7M   90 48.4M    0     0   468k      0  0:01:57  0:01:45  0:00:12  427k 90 53.7M   90 48.8M    0     0   467k      0  0:01:57  0:01:46  0:00:11  438k 91 53.7M   91 49.1M    0     0   467k      0  0:01:57  0:01:47  0:00:10  422k 91 53.7M   91 49.4M    0     0   464k      0  0:01:58  0:01:48  0:00:10  365k 92 53.7M   92 49.5M    0     0   462k      0  0:01:59  0:01:49  0:00:10  308k 92 53.7M   92 49.8M    0     0   459k      0  0:01:59  0:01:50  0:00:09  279k 93 53.7M   93 50.0M    0     0   457k      0  0:02:00  0:01:51  0:00:09  250k 93 53.7M   93 50.3M    0     0   456k      0  0:02:00  0:01:52  0:00:08  231k 94 53.7M   94 50.6M    0     0   455k      0  0:02:00  0:01:53  0:00:07  253k 95 53.7M   95 51.0M    0     0   454k      0  0:02:00  0:01:54  0:00:06  299k 95 53.7M   95 51.4M    0     0   454k      0  0:02:00  0:01:55  0:00:05  339k 96 53.7M   96 52.0M    0     0   455k      0  0:02:00  0:01:56  0:00:04  402k 97 53.7M   97 52.5M    0     0   456k      0  0:02:00  0:01:57  0:00:03  457k 99 53.7M   99 53.2M    0     0   458k      0  0:01:59  0:01:58  0:00:01  526k100 53.7M  100 53.7M    0     0   460k      0  0:01:59  0:01:59 --:--:--  599k
+2020.10.20 20:39:40 INFO  Compiling /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/metals3188034279040032866/predef.sc
+2020.10.20 20:39:45 INFO  Compiling /Users/mdeguz/Documents/Projects/scala/mill_example/example-3/build.sc
+2020.10.20 20:39:48 INFO  [1/42] foo.sources 
+2020.10.20 20:39:48 INFO  [2/42] foo.generatedSources 
+2020.10.20 20:39:48 INFO  [3/42] foo.allSources 
+2020.10.20 20:39:48 INFO  [4/42] foo.test.sources 
+2020.10.20 20:39:48 INFO  [5/42] foo.test.generatedSources 
+2020.10.20 20:39:48 INFO  [6/42] foo.test.allSources 
+2020.10.20 20:39:48 INFO  [7/42] mill.contrib.bloop.BloopImpl.moduleSourceMap 
+2020.10.20 20:39:48 INFO  [8/42] foo.unmanagedClasspath 
+2020.10.20 20:39:48 INFO  [9/42] foo.scalaVersion 
+2020.10.20 20:39:48 INFO  [10/42] foo.platformSuffix 
+2020.10.20 20:39:48 INFO  [11/42] foo.compileIvyDeps 
+2020.10.20 20:39:48 INFO  [12/42] foo.ivyDeps 
+2020.10.20 20:39:48 INFO  [13/42] foo.transitiveIvyDeps 
+2020.10.20 20:39:48 INFO  [14/42] foo.scalaOrganization 
+2020.10.20 20:39:48 INFO  [15/42] foo.scalaLibraryIvyDeps 
+2020.10.20 20:39:48 INFO  [16/42] foo.resources 
+2020.10.20 20:39:48 INFO  [17/42] foo.scalacPluginIvyDeps 
+2020.10.20 20:39:48 INFO  [18/42] foo.scalacPluginClasspath 
+2020.10.20 20:39:48 INFO  [19/42] foo.scalacOptions 
+2020.10.20 20:39:48 INFO  [20/42] foo.scalaCompilerClasspath 
+2020.10.20 20:39:48 INFO  [21/42] foo.javacOptions 
+2020.10.20 20:39:48 INFO  [22/42] foo.forkArgs 
+2020.10.20 20:39:48 INFO  [23/42] foo.mainClass 
+2020.10.20 20:39:48 INFO  [24/42] foo.bloop.config 
+2020.10.20 20:39:48 INFO  [25/42] foo.bloop.writeConfig 
+2020.10.20 20:39:48 INFO  Wrote /Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop/foo.json
+2020.10.20 20:39:48 INFO  [26/42] foo.test.unmanagedClasspath 
+2020.10.20 20:39:48 INFO  [27/42] foo.test.scalaVersion 
+2020.10.20 20:39:48 INFO  [28/42] foo.test.platformSuffix 
+2020.10.20 20:39:48 INFO  [29/42] foo.test.compileIvyDeps 
+2020.10.20 20:39:48 INFO  [30/42] foo.test.ivyDeps 
+2020.10.20 20:39:48 INFO  [31/42] foo.test.transitiveIvyDeps 
+2020.10.20 20:39:48 INFO  [32/42] foo.test.scalaOrganization 
+2020.10.20 20:39:48 INFO  [33/42] foo.test.scalaLibraryIvyDeps 
+2020.10.20 20:39:48 INFO  [34/42] foo.test.resources 
+2020.10.20 20:39:48 INFO  [35/42] foo.test.scalacPluginClasspath 
+2020.10.20 20:39:48 INFO  [36/42] foo.test.scalaCompilerClasspath 
+2020.10.20 20:39:48 INFO  [37/42] foo.test.testFrameworks 
+2020.10.20 20:39:48 INFO  [38/42] foo.test.forkArgs 
+2020.10.20 20:39:48 INFO  [39/42] foo.test.mainClass 
+2020.10.20 20:39:48 INFO  [40/42] foo.test.bloop.config 
+2020.10.20 20:39:49 INFO  [41/42] foo.test.bloop.writeConfig 
+2020.10.20 20:39:49 INFO  Wrote /Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop/foo.test.json
+2020.10.20 20:39:49 INFO  [42/42] mill.contrib.bloop.BloopImpl.install 
+2020.10.20 20:39:49 INFO  build tool exit: 0
+2020.10.20 20:39:49 INFO  time: ran 'mill bloopInstall' in 2m9s
+2020.10.20 20:39:49 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher564540928907451217/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher564540928907451217/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher564540928907451217/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.20 20:39:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mdeguz/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.10.20 20:39:50 INFO  time: connected to build server in 0.2s
+2020.10.20 20:39:50 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.20 20:39:49 INFO  time: imported build in 0.15s
+2020.10.20 20:39:51 INFO  time: indexed workspace in 0.79s
+2020.10.20 20:40:02 INFO    0 53.7M    0  117k    0     0   112k      0  0:08:08  0:00:01  0:08:07  112k  1 53.7M    1  781k    0     0   377k      0  0:02:25  0:00:02  0:02:23  648k  2 53.7M    2 1427k    0     0   470k      0  0:01:56  0:00:03  0:01:53  657k  4 53.7M    4 2225k    0     0   540k      0  0:01:41  0:00:04  0:01:37  685k  5 53.7M    5 2821k    0     0   558k      0  0:01:38  0:00:05  0:01:33  673k  6 53.7M    6 3433k    0     0   570k      0  0:01:36  0:00:06  0:01:30  666k  7 53.7M    7 3976k    0     0   566k      0  0:01:37  0:00:07  0:01:30  645k  7 53.7M    7 4351k    0     0   542k      0  0:01:41  0:00:08  0:01:33  586k  8 53.7M    8 4741k    0     0   526k      0  0:01:44  0:00:09  0:01:35  514k  9 53.7M    9 5184k    0     0   515k      0  0:01:46  0:00:10  0:01:36  471k 10 53.7M   10 5710k    0     0   517k      0  0:01:46  0:00:11  0:01:35  454k 11 53.7M   11 6254k    0     0   519k      0  0:01:45  0:00:12  0:01:33  453k 12 53.7M   12 6697k    0     0   514k      0  0:01:46  0:00:13  0:01:33  469k 12 53.7M   12 6918k    0     0   492k      0  0:01:51  0:00:14  0:01:37  431k 12 53.7M   12 7054k    0     0   469k      0  0:01:57  0:00:15  0:01:42  375k 13 53.7M   13 7308k    0     0   456k      0  0:02:00  0:00:16  0:01:44  319k 13 53.7M   13 7614k    0     0   447k      0  0:02:02  0:00:17  0:01:45  273k 14 53.7M   14 7989k    0     0   442k      0  0:02:04  0:00:18  0:01:46  255k 15 53.7M   15 8295k    0     0   436k      0  0:02:06  0:00:19  0:01:47  277k 15 53.7M   15 8652k    0     0   431k      0  0:02:07  0:00:20  0:01:47  319k 16 53.7M   16 9060k    0     0   431k      0  0:02:07  0:00:21  0:01:46  350k 17 53.7M   17 9603k    0     0   436k      0  0:02:06  0:00:22  0:01:44  397k 18 53.7M   18  9.8M    0     0   436k      0  0:02:06  0:00:23  0:01:43  415k 19 53.7M   19 10.3M    0     0   442k      0  0:02:04  0:00:24  0:01:40  467k 20 53.7M   20 10.7M    0     0   440k      0  0:02:04  0:00:25  0:01:39  475k 20 53.7M   20 11.1M    0     0   438k      0  0:02:05  0:00:26  0:01:39  469k 21 53.7M   21 11.5M    0     0   436k      0  0:02:06  0:00:27  0:01:39  435k 22 53.7M   22 11.9M    0     0   435k      0  0:02:06  0:00:28  0:01:38  430k 22 53.7M   22 12.0M    0     0   425k      0  0:02:09  0:00:29  0:01:40  341k 22 53.7M   22 12.2M    0     0   417k      0  0:02:11  0:00:30  0:01:41  303k 23 53.7M   23 12.3M    0     0   408k      0  0:02:14  0:00:31  0:01:43  253k 23 53.7M   23 12.5M    0     0   397k      0  0:02:18  0:00:32  0:01:46  197k 23 53.7M   23 12.5M    0     0   389k      0  0:02:21  0:00:33  0:01:48  135k 23 53.7M   23 12.6M    0     0   380k      0  0:02:24  0:00:34  0:01:50  124k 23 53.7M   23 12.8M    0     0   374k      0  0:02:26  0:00:35  0:01:51  115k 24 53.7M   24 12.9M    0     0   368k      0  0:02:29  0:00:36  0:01:53  124k 24 53.7M   24 13.2M    0     0   364k      0  0:02:30  0:00:37  0:01:53  149k 25 53.7M   25 13.5M    0     0   364k      0  0:02:30  0:00:38  0:01:52  196k 25 53.7M   25 13.8M    0     0   363k      0  0:02:31  0:00:39  0:01:52  247k 26 53.7M   26 14.2M    0     0   363k      0  0:02:31  0:00:40  0:01:51  284k 27 53.7M   27 14.5M    0     0   362k      0  0:02:31  0:00:41  0:01:50  316k 27 53.7M   27 14.8M    0     0   361k      0  0:02:31  0:00:42  0:01:49  339k 28 53.7M   28 15.2M    0     0   362k      0  0:02:31  0:00:43  0:01:48  345k 29 53.7M   29 15.6M    0     0   364k      0  0:02:31  0:00:44  0:01:47  365k 30 53.7M   30 16.1M    0     0   366k      0  0:02:29  0:00:45  0:01:44  397k 31 53.7M   31 16.6M    0     0   371k      0  0:02:28  0:00:46  0:01:42  440k 32 53.7M   32 17.4M    0     0   379k      0  0:02:25  0:00:47  0:01:38  526k 33 53.7M   33 18.1M    0     0   387k      0  0:02:22  0:00:48  0:01:34  606k 34 53.7M   34 18.5M    0     0   387k      0  0:02:22  0:00:49  0:01:33  591k 35 53.7M   35 18.8M    0     0   384k      0  0:02:23  0:00:50  0:01:33  544k 35 53.7M   35 19.0M    0     0   382k      0  0:02:23  0:00:51  0:01:32  487k 35 53.7M   35 19.2M    0     0   379k      0  0:02:24  0:00:52  0:01:32  384k 36 53.7M   36 19.4M    0     0   375k      0  0:02:26  0:00:53  0:01:33  264k 36 53.7M   36 19.6M    0     0   372k      0  0:02:27  0:00:54  0:01:33  220k 36 53.7M   36 19.7M    0     0   367k      0  0:02:29  0:00:55  0:01:34  196k 37 53.7M   37 19.9M    0     0   364k      0  0:02:31  0:00:56  0:01:35  176k 37 53.7M   37 20.1M    0     0   361k      0  0:02:32  0:00:57  0:01:35  172k 37 53.7M   37 20.3M    0     0   359k      0  0:02:33  0:00:58  0:01:35  182k 38 53.7M   38 20.6M    0     0   357k      0  0:02:33  0:00:59  0:01:34  198k 38 53.7M   38 20.9M    0     0   356k      0  0:02:34  0:01:00  0:01:34  238k 39 53.7M   39 21.3M    0     0   358k      0  0:02:33  0:01:01  0:01:32  299k 40 53.7M   40 21.7M    0     0   359k      0  0:02:33  0:01:02  0:01:31  332k 41 53.7M   41 22.2M    0     0   361k      0  0:02:32  0:01:03  0:01:29  389k 42 53.7M   42 22.8M    0     0   364k      0  0:02:30  0:01:04  0:01:26  455k 43 53.7M   43 23.5M    0     0   371k      0  0:02:28  0:01:05  0:01:23  544k 45 53.7M   45 24.2M    0     0   376k      0  0:02:26  0:01:06  0:01:20  591k 46 53.7M   46 25.0M    0     0   382k      0  0:02:23  0:01:07  0:01:16  666k 47 53.7M   47 25.7M    0     0   387k      0  0:02:21  0:01:08  0:01:13  716k 48 53.7M   48 26.1M    0     0   388k      0  0:02:21  0:01:09  0:01:12  694k 49 53.7M   49 26.5M    0     0   388k      0  0:02:21  0:01:10  0:01:11  613k 49 53.7M   49 26.6M    0     0   384k      0  0:02:22  0:01:11  0:01:11  494k 49 53.7M   49 26.8M    0     0   381k      0  0:02:24  0:01:12  0:01:12  376k 50 53.7M   50 27.0M    0     0   379k      0  0:02:24  0:01:13  0:01:11  268k 50 53.7M   50 27.3M    0     0   378k      0  0:02:25  0:01:14  0:01:11  240k 51 53.7M   51 27.5M    0     0   375k      0  0:02:26  0:01:15  0:01:11  197k 51 53.7M   51 27.7M    0     0   373k      0  0:02:27  0:01:16  0:01:11  216k 52 53.7M   52 27.9M    0     0   371k      0  0:02:27  0:01:17  0:01:10  232k 52 53.7M   52 28.2M    0     0   370k      0  0:02:28  0:01:18  0:01:10  246k 53 53.7M   53 28.6M    0     0   371k      0  0:02:28  0:01:19  0:01:09  258k 53 53.7M   53 28.9M    0     0   369k      0  0:02:28  0:01:20  0:01:08  277k 54 53.7M   54 29.0M    0     0   367k      0  0:02:29  0:01:21  0:01:08  268k 54 53.7M   54 29.1M    0     0   363k      0  0:02:31  0:01:22  0:01:09  242k 54 53.7M   54 29.2M    0     0   359k      0  0:02:32  0:01:23  0:01:09  186k 54 53.7M   54 29.2M    0     0   355k      0  0:02:34  0:01:24  0:01:10  120k 54 53.7M   54 29.3M    0     0   352k      0  0:02:35  0:01:25  0:01:10 84744 54 53.7M   54 29.4M    0     0   350k      0  0:02:37  0:01:26  0:01:11 73986 55 53.7M   55 29.6M    0     0   348k      0  0:02:37  0:01:27  0:01:10 94665 55 53.7M   55 29.8M    0     0   347k      0  0:02:38  0:01:28  0:01:10  142k 55 53.7M   55 30.0M    0     0   345k      0  0:02:39  0:01:29  0:01:10  175k 56 53.7M   56 30.3M    0     0   345k      0  0:02:39  0:01:30  0:01:09  222k 57 53.7M   57 30.6M    0     0   344k      0  0:02:39  0:01:31  0:01:08  244k 57 53.7M   57 30.8M    0     0   343k      0  0:02:40  0:01:32  0:01:08  255k 57 53.7M   57 31.1M    0     0   342k      0  0:02:40  0:01:33  0:01:07  253k 58 53.7M   58 31.4M    0     0   342k      0  0:02:40  0:01:34  0:01:06  273k 58 53.7M   58 31.6M    0     0   341k      0  0:02:41  0:01:35  0:01:06  266k 59 53.7M   59 31.8M    0     0   339k      0  0:02:41  0:01:36  0:01:05  255k 59 53.7M   59 32.0M    0     0   338k      0  0:02:42  0:01:37  0:01:05  244k 60 53.7M   60 32.2M    0     0   336k      0  0:02:43  0:01:38  0:01:05  231k 60 53.7M   60 32.4M    0     0   335k      0  0:02:43  0:01:39  0:01:04  215k 60 53.7M   60 32.6M    0     0   333k      0  0:02:44  0:01:40  0:01:04  191k 60 53.7M   60 32.7M    0     0   331k      0  0:02:45  0:01:41  0:01:04  178k 61 53.7M   61 32.8M    0     0   329k      0  0:02:46  0:01:42  0:01:04  164k 61 53.7M   61 33.0M    0     0   328k      0  0:02:47  0:01:43  0:01:04  164k 62 53.7M   62 33.3M    0     0   328k      0  0:02:47  0:01:44  0:01:03  182k 62 53.7M   62 33.7M    0     0   328k      0  0:02:47  0:01:45  0:01:02  223k 63 53.7M   63 33.9M    0     0   328k      0  0:02:47  0:01:46  0:01:01  257k 63 53.7M   63 34.2M    0     0   327k      0  0:02:47  0:01:47  0:01:00  287k 64 53.7M   64 34.4M    0     0   326k      0  0:02:48  0:01:48  0:01:00  293k 64 53.7M   64 34.6M    0     0   325k      0  0:02:49  0:01:49  0:01:00  265k 64 53.7M   64 34.8M    0     0   324k      0  0:02:49  0:01:50  0:00:59  226k 65 53.7M   65 35.0M    0     0   322k      0  0:02:50  0:01:51  0:00:59  205k 65 53.7M   65 35.2M    0     0   322k      0  0:02:50  0:01:52  0:00:58  206k 66 53.7M   66 35.5M    0     0   322k      0  0:02:50  0:01:53  0:00:57  219k 66 53.7M   66 35.8M    0     0   321k      0  0:02:50  0:01:54  0:00:56  246k 67 53.7M   67 36.2M    0     0   322k      0  0:02:50  0:01:55  0:00:55  287k 68 53.7M   68 36.5M    0     0   322k      0  0:02:50  0:01:56  0:00:54  323k 69 53.7M   69 37.1M    0     0   324k      0  0:02:49  0:01:57  0:00:52  373k 69 53.7M   69 37.5M    0     0   325k      0  0:02:48  0:01:58  0:00:50  415k 70 53.7M   70 38.1M    0     0   328k      0  0:02:47  0:01:59  0:00:48  471k 72 53.7M   72 38.7M    0     0   331k      0  0:02:46  0:02:00  0:00:46  531k 73 53.7M   73 39.5M    0     0   334k      0  0:02:44  0:02:01  0:00:43  611k 75 53.7M   75 40.3M    0     0   338k      0  0:02:42  0:02:02  0:00:40  672k 76 53.7M   76 41.3M    0     0   344k      0  0:02:39  0:02:03  0:00:36  781k 78 53.7M   78 42.3M    0     0   349k      0  0:02:37  0:02:04  0:00:33  863k 80 53.7M   80 43.4M    0     0   355k      0  0:02:34  0:02:05  0:00:29  944k 82 53.7M   82 44.2M    0     0   359k      0  0:02:32  0:02:06  0:00:26  963k 84 53.7M   84 45.3M    0     0   365k      0  0:02:30  0:02:07  0:00:23 1017k 85 53.7M   85 46.1M    0     0   369k      0  0:02:29  0:02:08  0:00:21  979k 87 53.7M   87 46.9M    0     0   373k      0  0:02:27  0:02:09  0:00:18  955k 89 53.7M   89 47.9M    0     0   377k      0  0:02:25  0:02:10  0:00:15  921k 90 53.7M   90 48.7M    0     0   381k      0  0:02:24  0:02:11  0:00:13  917k 91 53.7M   91 49.3M    0     0   382k      0  0:02:23  0:02:12  0:00:11  814k 92 53.7M   92 49.9M    0     0   384k      0  0:02:23  0:02:13  0:00:10  767k 94 53.7M   94 50.5M    0     0   386k      0  0:02:22  0:02:14  0:00:08  720k 95 53.7M   95 51.1M    0     0   387k      0  0:02:21  0:02:15  0:00:06  655k 96 53.7M   96 51.6M    0     0   388k      0  0:02:21  0:02:16  0:00:05  597k 96 53.7M   96 51.9M    0     0   388k      0  0:02:21  0:02:17  0:00:04  549k 97 53.7M   97 52.2M    0     0   387k      0  0:02:21  0:02:18  0:00:03  476k 97 53.7M   97 52.4M    0     0   386k      0  0:02:22  0:02:19  0:00:03  388k 98 53.7M   98 52.8M    0     0   386k      0  0:02:22  0:02:20  0:00:02  343k 99 53.7M   99 53.2M    0     0   386k      0  0:02:22  0:02:21  0:00:01  324k100 53.7M  100 53.7M    0     0   387k      0  0:02:21  0:02:21 --:--:--  358k
+2020.10.20 20:40:02 INFO  [1/42] foo.sources 
+2020.10.20 20:40:02 INFO  [4/42] foo.test.sources 
+2020.10.20 20:40:02 INFO  [7/42] mill.contrib.bloop.BloopImpl.moduleSourceMap 
+2020.10.20 20:40:02 INFO  [16/42] foo.resources 
+2020.10.20 20:40:02 INFO  [34/42] foo.test.resources 
+2020.10.20 20:40:02 INFO  [42/42] mill.contrib.bloop.BloopImpl.install 
+2020.10.20 20:40:02 INFO  build tool exit: 0
+2020.10.20 20:40:02 INFO  time: ran 'mill bloopInstall' in 2m22s
+2020.10.20 20:40:02 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher2851482004967201842/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.10.20 20:40:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mdeguz/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.10.20 20:40:02 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.20 20:40:02 INFO  time: indexed workspace in 0.17s
+2020.10.20 20:46:49 INFO  compiling foo (1 scala source)
+2020.10.20 20:46:51 ERROR code navigation does not work for the file '/Users/mdeguz/Documents/Projects/scala/mill_example/example-3/foo/test/src/ExampleTests.scala' because the build target foo.test is being compiled. Wait until compilation is finished and try again.
+2020.10.20 20:46:58 INFO  compiling foo.test (1 scala source)
+2020.10.20 20:46:58 INFO  time: compiled foo in 9.46s
+2020.10.20 20:46:58 INFO  time: compiled foo.test in 0.58s
+2020.10.28 19:19:05 INFO  shutting down Metals
+2020.11.08 17:42:49 INFO  started: Metals version 0.9.4 in workspace '/Users/mdeguz/Documents/Projects/scala/projects/todo-server/example-3' for client vscode.
+2020.11.08 17:42:50 INFO  time: initialize in 0.45s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher6281803872740112894/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/mdeguz/Documents/Projects/scala/projects/todo-server/example-3/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/mdeguz/Documents/Projects/scala/projects/todo-server/example-3/.bloop/foo.test.json'
+[0m[32m[D][0m Loading project from '/Users/mdeguz/Documents/Projects/scala/projects/todo-server/example-3/.bloop/foo.json'
+[0m[32m[D][0m Loading previous analysis for 'foo' from '/Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop/out/foo/foo-analysis.bin'.
+[0m[32m[D][0m Loading previous analysis for 'foo.test' from '/Users/mdeguz/Documents/Projects/scala/mill_example/example-3/.bloop/out/foo.test/foo.test-analysis.bin'.
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher6281803872740112894/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/_k/6wpn5_955yzglh11fmg41bk00000gn/T/bsp-launcher6281803872740112894/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.08 17:42:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mdeguz/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.11.08 17:42:52 INFO  time: connected to build server in 1.82s
+2020.11.08 17:42:52 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.08 17:42:54 INFO  time: indexed workspace in 2.12s
+2020.11.08 17:43:00 INFO  shutting down Metals
+No more data in the client stdin, exiting...
