@@ -33,22 +33,39 @@ object main extends cask.MainRoutes {
     ctx.run(query[Note].map(n => (n.id, n.content)))
   }
 
+  var openConnections = Set.empty[cask.WsChannelActor]
+
+  def sendBackNotes() = {
+    for (conn <- openConnections) conn.send(cask.Ws.Text(upickle.default.write(getAllNotes())))
+  }
+
+  @cask.websocket("/subscribe")
+  def subscribe() = cask.WsHandler { connection =>
+    connection.send(cask.Ws.Text(upickle.default.write(getAllNotes())))
+    openConnections += connection
+    cask.WsActor {case cask.Ws.Close(_, _) => openConnections -= connection}
+  }
+
   @cask.postJson("/add")
   def addNote(id: String, content: String) = {
     addNoteDatabase(id, content)
-    getAllNotes()
+    // for (conn <- openConnections) conn.send(cask.Ws.Text(upickle.default.write(getAllNotes())))
+    sendBackNotes()
+    ujson.Obj("success" -> true, "err" -> "")
   }
 
   @cask.postJson("/delete")
   def deleteNote(id: String) = {
     deleteNoteDatabase(id)
-    getAllNotes()
+    sendBackNotes()
+    ujson.Obj("success" -> true, "err" -> "")
   }
 
   @cask.postJson("/update")
-  def deleteNote(id: String, content: String) = {
+  def updateNote(id: String, content: String) = {
     updateNoteDatabase(id, content)
-    getAllNotes()
+    sendBackNotes()
+    ujson.Obj("success" -> true, "err" -> "")
   }
 
   @cask.post("/do-thing")
